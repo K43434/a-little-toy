@@ -1,0 +1,60 @@
+﻿  dllmain.cpp
+D:\SetWindowsHookEx-Injector-master\test\Memory.h(124,49): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“dllmain.cpp”)
+  
+D:\SetWindowsHookEx-Injector-master\test\dllmain.cpp(179,46): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\SetWindowsHookEx-Injector-master\test\dllmain.cpp(179,29): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+D:\SetWindowsHookEx-Injector-master\test\xorstr.hpp(146,21): warning C4244: “return”: 从“UINT64”转换到“_CHAR_TYPE_”，可能丢失数据
+D:\SetWindowsHookEx-Injector-master\test\xorstr.hpp(146,21): warning C4244:         with
+D:\SetWindowsHookEx-Injector-master\test\xorstr.hpp(146,21): warning C4244:         [
+D:\SetWindowsHookEx-Injector-master\test\xorstr.hpp(146,21): warning C4244:             _CHAR_TYPE_=CHAR
+D:\SetWindowsHookEx-Injector-master\test\xorstr.hpp(146,21): warning C4244:         ]
+  (编译源文件“dllmain.cpp”)
+  D:\SetWindowsHookEx-Injector-master\test\dllmain.cpp(258,28):
+  在计算 constexpr 函数“XorStr”时
+  D:\SetWindowsHookEx-Injector-master\test\xorstr.hpp(146,21):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\SetWindowsHookEx-Injector-master\test\dllmain.cpp(258,28):
+  	查看对正在编译的 类 模板 实例化“_XORSTR_<CHAR,3>”的引用
+  	D:\SetWindowsHookEx-Injector-master\test\xorstr.hpp(141,15):
+  	在编译 类 模板 成员函数“_CHAR_TYPE_ _XORSTR_<_CHAR_TYPE_,3>::CRYPT_CHAR(_CHAR_TYPE_,SIZE_T)”时
+          with
+          [
+              _CHAR_TYPE_=CHAR
+          ]
+  		D:\SetWindowsHookEx-Injector-master\test\xorstr.hpp(154,16):
+  		请参阅 "_XORSTR_<CHAR,3>::_XORSTR_" 中对 "_XORSTR_<CHAR,3>::CRYPT_CHAR" 的第一个引用
+  		D:\SetWindowsHookEx-Injector-master\test\xorstr.hpp(106,14):
+  		请参阅 "_XORSTR_<CHAR,3>::_XORSTR_" 中对 "_XORSTR_<CHAR,3>::_XORSTR_" 的第一个引用
+  		D:\SetWindowsHookEx-Injector-master\test\xorstr.hpp(172,2):
+  		请参阅 "XorStr" 中对 "_XORSTR_<CHAR,3>::_XORSTR_" 的第一个引用
+  
+D:\SetWindowsHookEx-Injector-master\test\dllmain.cpp(181,10): warning C4101: “userInput”: 未引用的局部变量
+D:\SetWindowsHookEx-Injector-master\test\xorstr.hpp(146,21): warning C4244: “return”: 从“UINT64”转换到“_CHAR_TYPE_”，可能丢失数据
+D:\SetWindowsHookEx-Injector-master\test\xorstr.hpp(146,21): warning C4244:         with
+D:\SetWindowsHookEx-Injector-master\test\xorstr.hpp(146,21): warning C4244:         [
+D:\SetWindowsHookEx-Injector-master\test\xorstr.hpp(146,21): warning C4244:             _CHAR_TYPE_=WCHAR
+D:\SetWindowsHookEx-Injector-master\test\xorstr.hpp(146,21): warning C4244:         ]
+  (编译源文件“dllmain.cpp”)
+  D:\SetWindowsHookEx-Injector-master\test\xorstr.hpp(146,21):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\SetWindowsHookEx-Injector-master\test\dllmain.cpp(195,41):
+  	查看对正在编译的 类 模板 实例化“_XORSTR_<WCHAR,9>”的引用
+  	D:\SetWindowsHookEx-Injector-master\test\xorstr.hpp(141,15):
+  	在编译 类 模板 成员函数“_CHAR_TYPE_ _XORSTR_<_CHAR_TYPE_,9>::CRYPT_CHAR(_CHAR_TYPE_,SIZE_T)”时
+          with
+          [
+              _CHAR_TYPE_=WCHAR
+          ]
+  		D:\SetWindowsHookEx-Injector-master\test\xorstr.hpp(121,18):
+  		请参阅 "_XORSTR_<WCHAR,9>::String" 中对 "_XORSTR_<WCHAR,9>::CRYPT_CHAR" 的第一个引用
+  		D:\SetWindowsHookEx-Injector-master\test\dllmain.cpp(195,22):
+  		请参阅 "Payload" 中对 "_XORSTR_<WCHAR,9>::String" 的第一个引用
+  
+  pch.cpp
+    正在创建库 D:\SetWindowsHookEx-Injector-master\x64\release\bin\test.lib 和对象 D:\SetWindowsHookEx-Injector-master\x64\release\bin\test.exp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 448 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  test.vcxproj -> D:\SetWindowsHookEx-Injector-master\x64\release\bin\test.dll
